@@ -12,7 +12,7 @@ const App = () => {
 				<Header>
 					<div className="auth-wrapper">
 						<Switch>
-							<Route exact path='/' component={Home} />
+							<Route path='/' component={Home} />
 							<Route exact path="/sign-in" component={Login} />
 							<Route exact path="/sign-up" component={SignUp} />
 							<Route path='*' component={NotFound} />
