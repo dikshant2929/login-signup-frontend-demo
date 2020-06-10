@@ -1,3 +1,49 @@
+@media screen and (max-width:768px) {
+  .navbar-nav{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:row!important;
+    li{
+     // display: block;
+      width: 49%;
+      margin: 0 1%;
+      text-align: center;
+    }
+  }
+  .navbar-light .navbar-brand{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+.fixed-top{
+  position: sticky!important;
+  position:-webkit-sticky!important;
+}
+  
+
+}
+
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+    align-self: flex-start;
+    justify-items: right;
+    margin-left: auto;
+    width: 200px;
+}
+.fixed-top{
+  position: relative!important;
+}
+
+.navbar-nav{
+  li{ width: 49%;
+    margin: 0 1%;
+    text-align: center;}
+}
+}
+
+
 // Border
 @mixin border($border: 1px solid $black-opacity-54) {
   border: $border;
@@ -75,6 +121,7 @@ label {
 	left: 16px; 
 	top: 15px;
 }
+
 .error { 
 	position: absolute; 
 	top: -19px; 
@@ -121,7 +168,7 @@ html,
 #root,
 .auth-wrapper {
   width: 100%;
-  height: 100%;
+ // height: 100%;
 }
 
 .navbar-light {
@@ -130,18 +177,21 @@ html,
 }
 
 .auth-wrapper {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  text-align: left;
+  // display: flex;
+  // justify-content: center;
+  // flex-direction: column;
+  // text-align: left;
+  margin-top: 40px;
+  
 }
 
 .auth-inner {
-  width: 450px;
+ max-width: 450px;
+ width:95%;
   margin: auto;
   background: #ffffff;
   box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
-  padding: 40px 55px 45px 55px;
+  padding:20px;
   border-radius: 15px;
   transition: all 0.3s;
 }
@@ -177,17 +227,18 @@ html,
 
 .mainbox {
   margin: auto;
-  background-color: #95c2de;
+  background-color: #ffffff;
   margin: auto;
-  height: 600px;
+  height: 400px;
   width: 600px;
+  border-radius: 15px;
   position: relative;
 }
 
 .err {
-  color: #ffffff;
+  color: #000000;
   font-family: "Nunito Sans", sans-serif;
-  font-size: 11rem;
+  font-size: 8rem;
   position: absolute;
   left: 20%;
   top: 8%;
@@ -195,16 +246,16 @@ html,
 
 .far {
   position: absolute;
-  font-size: 8.5rem;
+  font-size: 5.5rem;
   left: 42%;
   top: 15%;
-  color: #ffffff;
+  color: #000;
 }
 
 .err2 {
-  color: #ffffff;
+  color: #000;
   font-family: "Nunito Sans", sans-serif;
-  font-size: 11rem;
+  font-size: 8rem;
   position: absolute;
   left: 68%;
   top: 8%;
@@ -213,10 +264,10 @@ html,
 .msg {
   text-align: center;
   font-family: "Nunito Sans", sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   position: absolute;
   left: 16%;
-  top: 45%;
+  top: 55%;
   width: 75%;
 }
 

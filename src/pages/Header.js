@@ -7,13 +7,13 @@ const Header = ({children}) => {
             <nav className="navbar navbar-expand-lg navbar-light fixed-top">
                 <div className="container">
                     <a className="navbar-brand" href="/login-signup-frontend-demo">React Store</a>
-                    <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
-                        <ul className="navbar-nav ml-auto">
+                    <div className="collapse navbar-collapse show" id="navbarTogglerDemo02">
+                        <ul className="navbar-nav ">
                             <li className="nav-item">
-                                <Link className="nav-link" to={"/sign-in"}>Login</Link>
+                                <Link className="btn btn-secondary btn-block" to={"/sign-in"}>Login</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to={"/sign-up"}>Sign up</Link>
+                                <Link className="btn btn-secondary btn-block" to={"/sign-up"}>Sign up</Link>
                             </li>
                         </ul>
                     </div>
