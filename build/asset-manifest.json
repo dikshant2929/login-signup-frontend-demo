@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/login-signup-frontend-demo/static/css/main.e3a10401.chunk.css",
+    "main.js": "/login-signup-frontend-demo/static/js/main.0098382c.chunk.js",
+    "main.js.map": "/login-signup-frontend-demo/static/js/main.0098382c.chunk.js.map",
+    "runtime-main.js": "/login-signup-frontend-demo/static/js/runtime-main.991e3f81.js",
+    "runtime-main.js.map": "/login-signup-frontend-demo/static/js/runtime-main.991e3f81.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/login-signup-frontend-demo/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.457cc5ce.chunk.js": "/login-signup-frontend-demo/static/js/2.457cc5ce.chunk.js",
+    "static/js/2.457cc5ce.chunk.js.map": "/login-signup-frontend-demo/static/js/2.457cc5ce.chunk.js.map",
+    "index.html": "/login-signup-frontend-demo/index.html",
+    "precache-manifest.319421eeb72f043a2687516227326ef0.js": "/login-signup-frontend-demo/precache-manifest.319421eeb72f043a2687516227326ef0.js",
+    "service-worker.js": "/login-signup-frontend-demo/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/login-signup-frontend-demo/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.e3a10401.chunk.css.map": "/login-signup-frontend-demo/static/css/main.e3a10401.chunk.css.map",
+    "static/js/2.457cc5ce.chunk.js.LICENSE.txt": "/login-signup-frontend-demo/static/js/2.457cc5ce.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.991e3f81.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.457cc5ce.chunk.js",
+    "static/css/main.e3a10401.chunk.css",
+    "static/js/main.0098382c.chunk.js"
+  ]
+}
