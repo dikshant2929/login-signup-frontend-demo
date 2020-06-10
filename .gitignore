@@ -1,0 +1,35 @@
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency directories
+node_modules
+jspm_packages
+graphQL/node_modules
+graphQL/package-lock.json
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Babel cache directory
+babel_cache
+.cache-loader
+.cache-loader*
+.sass-cache
+.cache-loader-.js/
+.cache-loader-.mjs/
+
+
+# JS Bundles
+src/static/js
+src/static/pwa/js/bundle
+src/static/pwa/js/autoexpo
+src/static/pwa/js/autoexpo-*
+src/static/pwa/js/bundle-*
+src/static/pwa/js/autoexpo
+src/static/pwa/js/central-lf
+src/static/js/autoexpo
+package-lock.json
+
