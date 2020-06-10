@@ -12,7 +12,7 @@ const Login = () => {
     const [password, InputPasswordField] = useInput({ type: "password", extraprops : { parentClass : 'inputfield', placeHolder : 'Password', validation: 'required' } });
     
     const formValidation = (emailId, password) => {
-        return emailId && password && validateUtility.email(emailId) && validateUtility.required(emailId) && validateUtility.minLength(password, 8);
+        return emailId && password && validateUtility.email(emailId) && validateUtility.required(emailId)  && validateUtility.required(password);
     }
     
     useEffect(() => {
