@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/login-signup-frontend-demo/static/css/main.e3a10401.chunk.css",
-    "main.js": "/login-signup-frontend-demo/static/js/main.5dd9c2e8.chunk.js",
-    "main.js.map": "/login-signup-frontend-demo/static/js/main.5dd9c2e8.chunk.js.map",
+    "main.js": "/login-signup-frontend-demo/static/js/main.f89d25d5.chunk.js",
+    "main.js.map": "/login-signup-frontend-demo/static/js/main.f89d25d5.chunk.js.map",
     "runtime-main.js": "/login-signup-frontend-demo/static/js/runtime-main.991e3f81.js",
     "runtime-main.js.map": "/login-signup-frontend-demo/static/js/runtime-main.991e3f81.js.map",
     "static/css/2.af3c1da9.chunk.css": "/login-signup-frontend-demo/static/css/2.af3c1da9.chunk.css",
     "static/js/2.0229199b.chunk.js": "/login-signup-frontend-demo/static/js/2.0229199b.chunk.js",
     "static/js/2.0229199b.chunk.js.map": "/login-signup-frontend-demo/static/js/2.0229199b.chunk.js.map",
     "index.html": "/login-signup-frontend-demo/index.html",
-    "precache-manifest.f75fca830552ae7948b4645506635b8c.js": "/login-signup-frontend-demo/precache-manifest.f75fca830552ae7948b4645506635b8c.js",
+    "precache-manifest.d6e166960f16188996c1c1dcf52009b8.js": "/login-signup-frontend-demo/precache-manifest.d6e166960f16188996c1c1dcf52009b8.js",
     "service-worker.js": "/login-signup-frontend-demo/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/login-signup-frontend-demo/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.e3a10401.chunk.css.map": "/login-signup-frontend-demo/static/css/main.e3a10401.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.0229199b.chunk.js",
     "static/css/main.e3a10401.chunk.css",
-    "static/js/main.5dd9c2e8.chunk.js"
+    "static/js/main.f89d25d5.chunk.js"
   ]
 }
