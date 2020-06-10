@@ -12,7 +12,8 @@ const App = () => {
 				<Header>
 					<div className="auth-wrapper">
 						<Switch>
-							<Route path='/' component={Home} />
+							<Route exact path='/login-signup-frontend-demo' component={Home} />
+							<Route exact path='/' component={Home} />
 							<Route exact path="/sign-in" component={Login} />
 							<Route exact path="/sign-up" component={SignUp} />
 							<Route path='*' component={NotFound} />
